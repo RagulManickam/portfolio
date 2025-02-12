@@ -28,7 +28,7 @@ def add_animated_bg():
 add_animated_bg()
 
 # Sidebar with Profile Picture & Navigation
-st.sidebar.image("C:/Users/rahul/Downloads/my passport size photo.jpg", width=200)
+st.sidebar.image("C:/Users/rahul/Downloads/my_passport_size_photo.jpg", width=200)
 st.sidebar.title("🔹 Navigation")
 nav_selection = st.sidebar.radio("Go to", ["Home", "Skills", "Projects", "Contact"])
 
