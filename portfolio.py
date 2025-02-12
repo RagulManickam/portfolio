@@ -27,8 +27,7 @@ def add_animated_bg():
 # Apply the animated background
 add_animated_bg()
 
-# Sidebar with Profile Picture & Navigation
-st.sidebar.image("C:/Users/rahul/Downloads/my_passport_size_photo.jpg", width=200)
+# Sidebar Navigation
 st.sidebar.title("🔹 Navigation")
 nav_selection = st.sidebar.radio("Go to", ["Home", "Skills", "Projects", "Contact"])
 
@@ -39,7 +38,7 @@ if nav_selection == "Home":
     st.write("A passionate **Data Scientist** & **AI Enthusiast** with expertise in Python, Machine Learning, and Data Visualization.")
     
     # Contact Info
-    st.write("📧 Email: [ragulmanickam123@gmail.com](mailto:ragulmanickam123@gmail.com)")
+    st.write("💎 Email: [ragulmanickam123@gmail.com](mailto:ragulmanickam123@gmail.com)")
     st.write("🔗 LinkedIn: [linkedin.com/in/ragul-manickam18](https://www.linkedin.com/in/ragul-manickam18)")
     st.write("💻 GitHub: [github.com/RagulManickam](https://github.com/RagulManickam)")
     
